@@ -1,0 +1,49 @@
+{
+    "obfuscation": {
+        "vm_enabled": true,
+        "nested_vm": true,
+        "self_decrypt_layers": 2
+    },
+    "encryption": {
+        "string_encryption": true,
+        "string_splitting": true,
+        "multi_layer_encrypt": true,
+        "bytecode_encryption": true,
+        "dynamic_keys": true,
+        "encryption_layers": 3,
+        "split_min_length": 4
+    },
+    "control_flow": {
+        "control_flow_flatten": true,
+        "opaque_predicates": true,
+        "fake_branches": true,
+        "bogus_control_flow": false,
+        "real_cfg_flatten": false
+    },
+    "code_injection": {
+        "junk_code": false,
+        "garbage_code": true,
+        "junk_density": 0.3
+    },
+    "transformations": {
+        "variable_substitution": true,
+        "constant_obfuscation": true,
+        "instruction_mutation": true,
+        "instruction_substitution": false,
+        "function_outline": true,
+        "variable_mangle": true,
+        "mba_obfuscation": true
+    },
+    "protection": {
+        "anti_debug": true,
+        "anti_tamper": true,
+        "anti_emulation": false,
+        "crc_check": true,
+        "timing_anti_debug": false
+    },
+    "runtime": {
+        "environment_sandbox": true,
+        "metamethod_traps": true,
+        "string_hide_runtime": true
+    }
+}
