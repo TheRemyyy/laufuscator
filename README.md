@@ -21,7 +21,7 @@ Laufuscator is a powerful Lua code obfuscator that transforms your scripts into 
 
 ### ⚡ Features
 
-- **VM-Based Execution** — Compiles Lua to custom bytecode executed by an embedded virtual machine
+- **💻 VM-Based Execution** — Compiles Lua to custom bytecode executed by an embedded virtual machine
 - **🔐 Multi-Layer Encryption** — XOR + rotation + split encoding for strings and bytecode
 - **🛡️ Anti-Tampering** — CRC checksums, hook detection, and integrity verification
 - **🔄 Control Flow Flattening** — Dispatcher-based execution hides program logic
